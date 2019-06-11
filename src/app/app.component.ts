@@ -9,6 +9,9 @@ import { User } from './user';
 export class AppComponent {
   title = 'tdf';
   topics =['java','javascript'];
-  userModel = new User('','rob@gmail.com',23293,' sdasd','morning',true);
+  topichasError = true;
+
+  userModel = new User('','rob@gmail.com',2,' default','morning',true);
+
 
 }
